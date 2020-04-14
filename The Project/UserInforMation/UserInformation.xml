@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserInfo>
+  <UserInfoMation0>
+    <Department>工程部</Department>
+    <Position>工程部经理</Position>
+    <TeacherLevel>44444</TeacherLevel>
+    <PoliticalOutlook>233344444333</PoliticalOutlook>
+    <Nation>88888444</Nation>
+    <Wages>222</Wages>
+    <Reward>22</Reward>
+    <Punishment>22</Punishment>
+    <ContractInformation>22</ContractInformation>
+    <AccountNum>123</AccountNum>
+    <PassWord>123</PassWord>
+  </UserInfoMation0>
+	<UserInfoMation1>
+		<Department>工程部</Department>
+		<Position>工程部经理</Position>
+		<TeacherLevel>44444</TeacherLevel>
+		<PoliticalOutlook>233344444333</PoliticalOutlook>
+		<Nation>88888444</Nation>
+		<Wages>222</Wages>
+		<Reward>22</Reward>
+		<Punishment>22</Punishment>
+		<ContractInformation>22</ContractInformation>
+		<AccountNum>1213</AccountNum>
+		<PassWord>1213</PassWord>
+	</UserInfoMation1>
+</UserInfo>

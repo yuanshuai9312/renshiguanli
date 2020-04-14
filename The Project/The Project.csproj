@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B3CDF54-6941-456E-A2D3-9D1379595B4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>The_Project</RootNamespace>
+    <AssemblyName>The Project</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Collection.cs" />
+    <Compile Include="Creat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Creat.Designer.cs">
+      <DependentUpon>Creat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PeopleControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PeopleControl.Designer.cs">
+      <DependentUpon>PeopleControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendUser.Designer.cs">
+      <DependentUpon>SendUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdatePwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdatePwd.Designer.cs">
+      <DependentUpon>UpdatePwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="添加.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="添加.Designer.cs">
+      <DependentUpon>添加.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Creat.resx">
+      <DependentUpon>Creat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PeopleControl.resx">
+      <DependentUpon>PeopleControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SendUser.resx">
+      <DependentUpon>SendUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdatePwd.resx">
+      <DependentUpon>UpdatePwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="添加.resx">
+      <DependentUpon>添加.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="GongchengbuXml\GongchengbuXml.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Resource\007_GayColors_1600x1200.jpg" />
+    <Content Include="Resource\1-110103145205.jpg" />
+    <Content Include="Resource\111111.jpg" />
+    <Content Include="Resource\1229552_155357051995_2.jpg" />
+    <Content Include="Resource\14527.gif" />
+    <Content Include="Resource\1614-110302104515100.jpg" />
+    <Content Include="Resource\2033599897.jpg" />
+    <Content Include="Resource\2130511313.jpg" />
+    <Content Include="Resource\278413_114201005_2.jpg" />
+    <Content Include="Resource\4b28434d94f70371afc3abfb.jpg" />
+    <Content Include="Resource\7.jpg" />
+    <Content Include="Resource\73468834.jpg" />
+    <Content Include="Resource\7ec695ef68549b0d78f055d6.jpg" />
+    <Content Include="Resource\blue20080402_027.jpg" />
+    <Content Include="Resource\eps_cd6860_00097.jpg" />
+    <Content Include="Resource\OOOPIC_lihs1229_20090727a3fe202063199fbc.jpg" />
+    <Content Include="Resource\screen1.bmp" />
+    <Content Include="Resource\screen2.bmp" />
+    <Content Include="Resource\screen3.bmp" />
+    <Content Include="Resource\screen4.bmp" />
+    <Content Include="Resource\屏幕.jpg" />
+    <Content Include="Resource\屏幕1.jpg" />
+    <Content Include="Resource\屏幕2.jpg" />
+    <Content Include="Resource\按钮\01.gif" />
+    <Content Include="Resource\按钮\02.gif" />
+    <Content Include="Resource\按钮\02.png" />
+    <Content Include="Resource\按钮\03.gif" />
+    <Content Include="Resource\按钮\06.gif" />
+    <Content Include="Resource\按钮\07.gif" />
+    <Content Include="Resource\按钮\08.gif" />
+    <Content Include="Resource\按钮\14.png" />
+    <Content Include="Resource\按钮\15.png" />
+    <Content Include="Resource\按钮\16.png" />
+    <Content Include="Resource\按钮\17.png" />
+    <Content Include="Resource\无标题.bmp" />
+    <Content Include="Resource\未标题-1 拷贝.jpg" />
+    <Content Include="Resource\花.jpg" />
+    <Content Include="Resource\透明.jpg" />
+    <Content Include="Resource\透明1.jpg" />
+    <Content Include="UserInforMation\UserInformation.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

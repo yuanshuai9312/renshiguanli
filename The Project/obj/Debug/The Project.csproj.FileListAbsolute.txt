@@ -1,0 +1,30 @@
+F:\2017-7-25\The Project\The Project\bin\Debug\The Project.exe.config
+F:\2017-7-25\The Project\The Project\bin\Debug\The Project.exe
+F:\2017-7-25\The Project\The Project\bin\Debug\The Project.pdb
+F:\2017-7-25\The Project\The Project\obj\Debug\The_Project.Index.resources
+F:\2017-7-25\The Project\The Project\obj\Debug\The_Project.Login.resources
+F:\2017-7-25\The Project\The Project\obj\Debug\The_Project.Properties.Resources.resources
+F:\2017-7-25\The Project\The Project\obj\Debug\The Project.csproj.GenerateResource.Cache
+F:\2017-7-25\The Project\The Project\obj\Debug\The Project.exe
+F:\2017-7-25\The Project\The Project\obj\Debug\The Project.pdb
+F:\2017-7-25\The Project\The Project\obj\Debug\The_Project.AddUser.resources
+F:\2017-7-25\The Project\The Project\obj\Debug\The Project.csprojResolveAssemblyReference.cache
+F:\2017-7-25\The Project\The Project\obj\Debug\The_Project.UpdatePwd.resources
+F:\2017-7-25\The Project\The Project\obj\Debug\The_Project.PeopleControl.resources
+F:\2017-7-25\The Project\The Project\obj\Debug\The_Project.SendUser.resources
+D:\code\The Project\The Project\bin\Debug\The Project.exe.config
+D:\code\The Project\The Project\bin\Debug\The Project.exe
+D:\code\The Project\The Project\bin\Debug\The Project.pdb
+D:\code\The Project\The Project\obj\Debug\The Project.csprojAssemblyReference.cache
+D:\code\The Project\The Project\obj\Debug\The_Project.Creat.resources
+D:\code\The Project\The Project\obj\Debug\The_Project.Index.resources
+D:\code\The Project\The Project\obj\Debug\The_Project.Login.resources
+D:\code\The Project\The Project\obj\Debug\The_Project.PeopleControl.resources
+D:\code\The Project\The Project\obj\Debug\The_Project.Properties.Resources.resources
+D:\code\The Project\The Project\obj\Debug\The_Project.SendUser.resources
+D:\code\The Project\The Project\obj\Debug\The_Project.UpdatePwd.resources
+D:\code\The Project\The Project\obj\Debug\The_Project.AddUser.resources
+D:\code\The Project\The Project\obj\Debug\The Project.csproj.GenerateResource.cache
+D:\code\The Project\The Project\obj\Debug\The Project.csproj.CoreCompileInputs.cache
+D:\code\The Project\The Project\obj\Debug\The Project.exe
+D:\code\The Project\The Project\obj\Debug\The Project.pdb
